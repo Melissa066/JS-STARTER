@@ -12,7 +12,7 @@
 // function logger() {
 //     console.log('My name is Melisa');
 // }
-// // calling / running / invoking function 
+// // calling / running / invoking function
 // logger();
 // logger();
 // logger();
@@ -196,6 +196,25 @@
 // }
 
 
-for (let key in dog) {
-    console.log(key + dog[key]);
-}
+// OBJECTS
+
+
+const jonas = {
+
+    firstName: 'Jonas',
+    lastName: 'Melisa',
+    age: 2037 - 1991,
+    job: 'teacher',
+    friends: ['Michael', 'Peter']
+
+};
+console.log(jonas);
+
+
+console.log(jonas.lastName);
+console.log(jonas['lastName']);
+
+
+const nameKey = 'Name';
+console.log(jonas['first' + nameKey]);
+console.log(jonas['last' + nameKey]);
